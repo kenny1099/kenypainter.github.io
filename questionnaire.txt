@@ -1,0 +1,191 @@
+========================================================
+   QUESTIONNAIRE PORTFOLIO — Kenypainter
+   Remplis chaque champ après le « : ». Laisse vide si sans réponse.
+   Une fois rempli, donne-moi le fichier et je mets tout à jour.
+========================================================
+
+--------------------------------------------------------
+1. CONTACT
+--------------------------------------------------------
+Email de contact          : domainnykenny@gmail.com
+Numéro WhatsApp (format +509) : +509 41325369
+Ville / quartier          :
+(Ex : Carrefour, Haïti)
+
+--------------------------------------------------------
+2. RÉSEAUX SOCIAUX
+--------------------------------------------------------
+Instagram (nom d'utilisateur) : @kenypainter
+Behance (lien complet)    : Pas de Behance
+YouTube (lien complet)    : Pas de YouTube
+Autre réseau              : facebook.com/kenypainter
+
+--------------------------------------------------------
+3. PROJETS — 3 à 5 exemples
+--------------------------------------------------------
+Pour CHAQUE projet, donne :
+  • Titre du projet
+  • Type (Logo / Logo animé / Lyric video / Flyer / Web / Autre)
+  • Description en 1-2 phrases
+  • Lien ou fichier visuel si dispo
+  • Client (nom ou activité)
+
+Projet 1
+  Titre     : Logo
+  Type      : Identité visuelle
+  Description :
+  Lien/visuel : dans le dossier du projet
+  Client    : Thalatane
+
+Projet 2
+  Titre     : Flyer
+  Type      : Flyer promo
+  Description :
+  Lien/visuel : dans le dossier
+  Client    : Baget
+
+Projet 3
+  Titre     : Logo animé
+  Type      : Animation de logo
+  Description :
+  Lien/visuel : dans le dossier
+  Client    : LSV Média
+
+Projet 4
+  Titre     : Lyric video
+  Type      : Lyric video
+  Description :
+  Lien/visuel : je donne le lien plus tard sur demande
+  Client    : Malet de mots
+
+Projet 5
+  Titre     : Pub vidéo
+  Type      : Spot publicitaire
+  Description :
+  Lien/visuel : dans le dossier
+  Client    : Plug & Play
+
+--------------------------------------------------------
+4. CLIENTS / TÉMOIGNAGES
+--------------------------------------------------------
+Pour CHAQUE témoignage :
+  • Prénom + initiale (ex : Samuel M.)
+  • Activité / secteur
+  • Le service fourni
+  • La phrase de témoignage (mets ce que le client a dit)
+  • Année
+
+Témoignage 1
+  Nom        : Juno7
+  Activité   : Journaliste
+  Service    : Motion graphics
+  Citation   : "Travay yo super, mwen renmen vitès ou ban m travay yo, ou ban m ekzakteman sa m te bezwen. Ou se on bò pwofesyonèl e m satisfè."
+  Année      : 2026
+
+Témoignage 2
+  Nom        : Mora E.
+  Activité   : Réalisateur
+  Service    : Motion graphics, video ads
+  Citation   : "Monche, avèw map mache. Travay ou yo bèl anpil."
+  Année      : 2025
+
+Témoignage 3
+  Nom        : Luckson S.
+  Activité   : Journaliste
+  Service    : Motion design
+  Citation   : "Hooo ! Bèl travay, frè m. Mwen renmen l."
+  Année      : 2025
+
+Témoignage 4
+  Nom        : Thania D.
+  Activité   : Entrepreneuse
+  Service    : Logo, flyers
+  Citation   : "Graphiste Thalatane lan fo vre mesye lol."
+  Année      : 2026
+
+--------------------------------------------------------
+5. SERVICES — libellé + description + tarif
+--------------------------------------------------------
+Service 1 — Logo & identité
+  Description (ce que tu fais, en 1-2 phrases) :
+  Tarif à partir de (en USD ou HTG) :$35
+
+Service 2 — Flyers & affiches
+  Description :
+  Tarif à partir de : $20
+
+Service 3 — Logos animés
+  Description :
+  Tarif à partir de : $30
+
+Service 4 — Lyric videos & pubs
+  Description :
+  Tarif à partir de : $100
+
+Service 5 — Développement web
+  Description :
+  Tarif à partir de : $250
+
+Service 6 — Sur mesure (optionnel)
+  Description :
+  Tarif :
+
+--------------------------------------------------------
+6. CV — PARCOURS & EXPÉRIENCES
+--------------------------------------------------------
+Années d'expérience total  :
+Statut actuel (freelance/étudiant/salarié) :
+
+Expérience 1
+  Période (année à année) :
+  Poste / mission         :
+  Client / secteur        :
+  Réalisations / résultats :
+
+Expérience 2
+  Période :
+  Poste / mission :
+  Client / secteur :
+  Réalisations / résultats :
+
+Expérience 3
+  Période :
+  Poste / mission :
+  Client / secteur :
+  Réalisations / résultats :
+
+Formation (si dispo)
+  École / programme    :
+  Période              :
+  Diplôme / domaine    :
+
+CV en PDF
+  As-tu un fichier CV ? Si oui, nom du fichier :
+
+--------------------------------------------------------
+7. FAQ — 4 questions / réponses
+--------------------------------------------------------
+Question 1
+  Question :
+  Réponse   :
+
+Question 2
+  Question :
+  Réponse   :
+
+Question 3
+  Question :
+  Réponse   :
+
+Question 4
+  Question :
+  Réponse   :
+
+--------------------------------------------------------
+8. DIVERS
+--------------------------------------------------------
+Présentation courte (qui es-tu, ce qui te démarque) : Kenypainter, motion designer — 7 ans d'expérience
+
+Je donne vie aux idées. Spécialisé dans le design graphique, l'animation, le motion design et les visuels dynamiques, je transforme les concepts en récits visuels captivants. De l'identité de marque aux explications complexes, je mets mon expertise en mouvement pour vos projets.
+Surnom / nom à afficher  :
+Année de copyright (ex : 2026) :
