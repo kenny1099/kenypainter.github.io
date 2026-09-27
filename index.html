@@ -136,6 +136,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--violet-l);outline-o
 .card::before{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(20,18,24,.85),transparent 55%);z-index:1}
 .card div{position:relative;z-index:2;transition:transform .5s var(--ease)}
 .card:hover div{transform:translateY(-4px)}
+.card:hover .card-web{transform:none}
 .card small{color:var(--violet-l);font-weight:500}
 .card h3{font-size:1.15rem;font-family:var(--font-d);font-weight:600}
 .card p{font-size:.82rem;color:var(--muted);margin-top:4px;line-height:1.45}
@@ -144,6 +145,11 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--violet-l);outline-o
 .c3{background:linear-gradient(150deg,#A78BFA,#2A2140)}
 .c4{background:linear-gradient(150deg,#5C4BBF,#1D1A24)}
 .c5{background:linear-gradient(150deg,#8B6FE8,#241B38)}
+.c6{background:radial-gradient(80% 80% at 20% 10%,rgba(167,139,250,.35),transparent 60%),linear-gradient(150deg,#6C4BD0,#1B1428);align-items:flex-start}
+.c6 .card-web{position:absolute;inset:0;z-index:1;display:grid;place-items:center}
+.c6 .web-ico{font-family:var(--font-d);font-weight:700;font-size:clamp(2.4rem,6vw,4rem);color:rgba(255,255,255,.14);letter-spacing:-.03em}
+.c6 .card-txt{position:relative;z-index:2;margin-top:auto}
+.c7{background:repeating-linear-gradient(45deg,rgba(167,139,250,.1) 0 2px,transparent 2px 14px),linear-gradient(150deg,#2A2140,#1D1A24)}
 
 /* Clients */
 .clients{padding:20px var(--pad) 100px}
@@ -218,9 +224,9 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--violet-l);outline-o
   background:linear-gradient(160deg,#2A2140,#1D1A24)}
 .contact::before{content:"";position:absolute;width:40vmax;height:40vmax;left:50%;top:-30vmax;transform:translateX(-50%);border-radius:50%;background:radial-gradient(circle,rgba(167,139,250,.35),transparent 70%);animation:floatA 20s ease-in-out infinite;pointer-events:none}
 .contact h2{font-family:var(--font-d);font-size:clamp(2rem,6vw,4.2rem);line-height:1;letter-spacing:-.03em;margin-bottom:28px;font-weight:700;position:relative}
-.contact .soc{margin-top:28px;display:flex;justify-content:center;gap:24px;color:var(--muted);font-size:.9rem;flex-wrap:wrap;position:relative}
-.contact .soc a{transition:color .3s,transform .3s var(--ease)}
-.contact .soc a:hover{color:var(--violet-l);transform:translateY(-2px)}
+.contact .soc{margin-top:28px;display:flex;justify-content:center;gap:18px;color:var(--muted);position:relative}
+.contact .soc a{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:rgba(167,139,250,.08);border:1px solid rgba(167,139,250,.14);transition:transform .4s var(--ease),background .4s var(--ease),color .4s var(--ease),box-shadow .4s var(--ease)}
+.contact .soc a:hover{color:#fff;background:linear-gradient(140deg,var(--violet),var(--violet-d));transform:translateY(-4px);box-shadow:0 16px 40px -12px rgba(167,139,250,.5)}
 footer{text-align:center;color:var(--muted);font-size:.8rem;padding:24px}
 
 /* Révélations au scroll */
@@ -350,11 +356,12 @@ footer{text-align:center;color:var(--muted);font-size:.8rem;padding:24px}
 
 <section class="work wrap" id="projets" aria-labelledby="titre-projets">
   <div class="grid">
-    <a class="card c1" href="projet-thalatane.jpg" target="_blank" rel="noopener" data-reveal style="--d:.05s" title="Voir le logo Thalatane"><img src="projet-thalatane.jpg" alt="Logo Thalatane" loading="lazy"><div><small>Identité visuelle</small><h3>Logo Thalatane</h3><p>Identité complète pour Thalatane : logo, déclinaisons et charte.</p></div></a>
-    <a class="card c2" href="projet-baget.png" target="_blank" rel="noopener" data-reveal style="--d:.1s" title="Voir le flyer Baget"><img src="projet-baget.png" alt="Flyer Baget" loading="lazy"><div><small>Flyer promo</small><h3>Flyer Baget</h3><p>Campagne promo percutante, claire et prête à l'impression.</p></div></a>
-    <a class="card c3" href="projet-lsv-web.mp4" target="_blank" rel="noopener" data-reveal style="--d:.15s" title="Regarder l'animation LSV Média"><video src="projet-lsv-web.mp4" muted playsinline preload="none" loop></video><div><small>Animation de logo</small><h3>Logo LSV Média</h3><p>Logo animé avec une ouverture dynamique pour la télé.</p></div></a>
-    <a class="card c4" href="#" data-reveal style="--d:.2s"><div><small>Lyric video</small><h3>Lyric video Malet de mots</h3><p>Le titre mis en rythme, note par note, mot par mot.</p></div></a>
-    <a class="card c5" href="projet-plugplay-web.mp4" target="_blank" rel="noopener" data-reveal style="--d:.25s" title="Regarder le spot Plug & Play"><video src="projet-plugplay-web.mp4" muted playsinline preload="none" loop></video><div><small>Spot publicitaire</small><h3>Pub Plug & Play</h3><p>Spot publicitaire qui capte l'attention en quelques secondes.</p></div></a>
+    <a class="card c1" href="projet-thalatane.jpg" target="_blank" rel="noopener" data-reveal style="--d:.02s" title="Voir le logo Thalatane"><img src="projet-thalatane.jpg" alt="Logo Thalatane" loading="lazy"><div><small>Identité visuelle</small><h3>Logo Thalatane</h3><p>Identité complète pour Thalatane : logo, déclinaisons et charte.</p></div></a>
+    <a class="card c2" href="projet-baget.png" target="_blank" rel="noopener" data-reveal style="--d:.05s" title="Voir le flyer Baget"><img src="projet-baget.png" alt="Flyer Baget" loading="lazy"><div><small>Flyer promo</small><h3>Flyer Baget</h3><p>Campagne promo percutante, claire et prête à l'impression.</p></div></a>
+    <a class="card c3" href="projet-lsv-web.mp4" target="_blank" rel="noopener" data-reveal style="--d:.1s" title="Regarder l'animation LSV Média"><video src="projet-lsv-web.mp4" muted playsinline preload="none" loop></video><div><small>Animation de logo</small><h3>Logo LSV Média</h3><p>Logo animé avec une ouverture dynamique pour la télé.</p></div></a>
+    <a class="card c5" href="projet-plugplay-web.mp4" target="_blank" rel="noopener" data-reveal style="--d:.2s" title="Regarder le spot Plug & Play"><video src="projet-plugplay-web.mp4" muted playsinline preload="none" loop></video><div><small>Spot publicitaire</small><h3>Pub Plug & Play</h3><p>Spot publicitaire qui capte l'attention en quelques secondes.</p></div></a>
+    <a class="card c6" href="https://cv-builder-haiti-seven.vercel.app/" target="_blank" rel="noopener" data-reveal style="--d:.25s" title="Ouvrir CV Builder — banm-yon-cv"><div class="card-web"><span class="web-ico" aria-hidden="true">&lt;/&gt;</span></div><div class="card-txt"><small>Projet web</small><h3>CV Builder — banm-yon-cv</h3><p>Une app pour générer un CV professionnel en quelques clics.</p></div></a>
+    <a class="card c7" href="projets.html" data-reveal style="--d:.3s" title="Voir d'autres projets"><div class="card-txt"><small>Et encore…</small><h3>D'autres projets</h3><p>Logos, flyers, motion graphics, spots pub, projets web… Une sélection à découvrir.</p></div></a>
   </div>
 </section>
 
@@ -524,9 +531,15 @@ footer{text-align:center;color:var(--muted);font-size:.8rem;padding:24px}
   <h2 id="titre-contact">Un projet en tête ?<br>Parlons-en.</h2>
   <a class="btn btn--v btn--glow" href="mailto:domannykenny@gmail.com" data-magnet>Écrire à Keny <i>→</i></a>
   <div class="soc">
-    <a href="https://instagram.com/kenypainter" target="_blank" rel="noopener">Instagram</a>
-    <a href="https://www.facebook.com/share/1Q3TXEccqU/" target="_blank" rel="noopener">Facebook</a>
-    <a href="https://wa.me/50941325369" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="https://instagram.com/kenypainter" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.8.1-1.1.1-1.5.2-1.8.3-.5.2-.8.4-1.1.7-.3.3-.5.6-.7 1.1-.1.3-.3.7-.3 1.8-.1 1.3-.1 1.7-.1 4.8s0 3.5.1 4.8c.1 1.1.2 1.5.3 1.8.2.5.4.8.7 1.1.3.3.6.5 1.1.7.3.1.7.3 1.8.3 1.3.1 1.7.1 4.8.1s3.5 0 4.8-.1c1.1-.1 1.5-.2 1.8-.3.5-.2.8-.4 1.1-.7.3-.3.5-.6.7-1.1.1-.3.3-.7.3-1.8.1-1.3.1-1.7.1-4.8s0-3.5-.1-4.8c-.1-1.1-.2-1.5-.3-1.8-.2-.5-.4-.8-.7-1.1-.3-.3-.6-.5-1.1-.7-.3-.1-.7-.3-1.8-.3-1.3-.1-1.7-.1-4.8-.1zm0 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4zm5.2-2.9a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg>
+    </a>
+    <a href="https://www.facebook.com/share/1Q3TXEccqU/" target="_blank" rel="noopener" aria-label="Facebook">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
+    </a>
+    <a href="https://wa.me/50941325369" target="_blank" rel="noopener" aria-label="WhatsApp">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </a>
   </div>
 </section>
 <footer>© 2026 Kenison Domany — Kenypainter</footer>
